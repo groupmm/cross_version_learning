@@ -1,0 +1,23 @@
+name: cross_version_learning
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pandas
+  - scikit-learn
+  - ffmpeg
+  - numba
+  - nbconvert
+  - pip:
+      - tensorflow
+      - librosa
+      - libfmp
+      - welford
